@@ -44,7 +44,9 @@ function GuardarDatos(){
     personas.push(nuevasPersona)
 
     console.log(personas);
-
+    document.getElementById('nombre').value = "";
+    document.getElementById('edad').value ="";
+    document.getElementById('cedula').value="";
 }
 
 btnGuardarBandidas.addEventListener('click',agregarBandidas)
@@ -52,6 +54,7 @@ function agregarBandidas(){
     const bandida = document.getElementById('bandidas').value;
     bandidas.push(bandida)
     console.log(bandidas);
+    document.getElementById('bandidas').value = "";
 }
 
 btneliminarBandidas.addEventListener('click',eliminarBandidas)

@@ -96,3 +96,46 @@ body{
     background-color: rgb(146, 2, 2);
     border: none;
 }
+@media (max-width: 600px) {
+    .formulario{
+        width: 300px;
+        height: 350px;
+        padding: 20px;
+    }
+    .contenedorInputs{
+        width: 208px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorBotones{
+        margin-top: 25px;
+    }
+    .btnGuardar{
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+        background-color: rgb(2, 216, 2);
+        border: white 1px solid;
+        border-radius: 5px;
+        color: white;
+    }
+    .btnGuardarBandidas{
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+        background-color: rgb(0, 102, 255);
+        border: white 1px solid;
+        border-radius: 5px;
+        color: white;
+    }
+    .btnEliminarBandidas{
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+        background-color: red;
+        border: white 1px solid;
+        border-radius: 5px;
+        color: white;
+    }
+  }
